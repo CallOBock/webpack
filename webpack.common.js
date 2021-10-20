@@ -11,8 +11,6 @@ const PATHS = {
     dist: path.resolve(__dirname, '../../js/mypage'),
 }
 
-// Для того, чтобы не показывалась ошибка при импорте через alias в typesript, 
-// необходимо синхронизировать пути также в поле path в tsconfig 
 const ALIASES = {
     '@': PATHS.src,
     '@context': `${PATHS.src}/theme/context`,
