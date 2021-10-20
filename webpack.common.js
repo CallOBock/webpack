@@ -24,19 +24,7 @@ module.exports = {
     },
     context: PATHS.src,
     entry: {
-        'student.profile.confirm': './pages/StudentProfileConfirm/index.ts',
-        'student.profile': './pages/StudentProfile/index.ts',
-        'base.of.students': './pages/BaseOfStudents/index.ts',
-        'test.results': './pages/TestResults/index.ts',
-        'header.menu': './components/MenuAndLegend/AppMenu/index.tsx',
-        'table.legend': './components/MenuAndLegend/AppLegend/App/index.tsx',
-        'cards.of.projects': './pages/ProjectsCard/index.ts',
-        'fieb.activity': './pages/FiebActivity/index.ts',
-        'fieb.work.groups': './pages/FiebWorkGroups/index.ts',
-        'fieb.coupon.codes': './pages/FiebCouponCodes/index.ts',
-        'statistic': './pages/Statistic/index.ts',
-        'test.plan.control': './pages/TestPlanControl/index.ts',
-        'pedan.fepo': './pages/PedanFepo/index.ts'
+        'test.entry': './testEntry.ts'
     },
     output: {
         path: PATHS.dist,
