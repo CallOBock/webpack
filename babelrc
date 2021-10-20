@@ -1,0 +1,23 @@
+{
+    "presets": [
+        ["@babel/preset-env", {
+            // "useBuiltIns": "usage",
+            // "corejs": "3",
+            "targets": {
+                "chrome": "92",
+                "firefox": "91",
+                "opera": "78",
+                "edge": "92"
+            }
+        }],
+        "@babel/preset-typescript",
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        ["lodash", { "id": "lodash-compat" }],
+        "@babel/plugin-proposal-function-bind",
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-export-default-from",
+        "babel-plugin-styled-components"
+    ]
+}
